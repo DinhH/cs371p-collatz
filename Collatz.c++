@@ -53,7 +53,20 @@ int collatz_eval (int i, int j) {
   int temp = (upper / 2) +1;
   if(temp > lower)
     lower = temp;
-
+  for(int k = lower, k <= upper; k++) {
+    count = 1;
+    y = k;
+    while(y > 1) {
+      if(y > 0 && cache[y] != 0 && y < C_SIZE) {
+        count += cache[y] - 1;
+        y = 1;
+      }
+      else
+        return false;
+    }
+    if
+      return false;
+  }
   return 1;
 }
 
