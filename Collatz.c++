@@ -62,7 +62,12 @@ int collatz_eval (int i, int j) {
         y = 1;
       }
       else
-        return false;
+        if(y % 2 == 0)
+          y = y / 2;
+        else
+          y = 3 * y + 1;
+        count += 1;
+        //return false;
     }
     if
       return false;
