@@ -28,6 +28,8 @@ using namespace std;
  * @param j an int
  * @return true if the read is successful, otherwise false
  */
+//pair<int, int> collatz_read (const string& s);
+
 bool collatz_read (istream& r, int& i, int& j);
 
 // ------------

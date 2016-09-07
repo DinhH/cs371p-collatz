@@ -10,6 +10,12 @@
 
 #include <cassert>  // assert
 #include <iostream> // endl, istream, ostream
+#include <sstream>  // istringstream
+#include <string>   // getline, string
+#include <utility>  // make_pair, pair
+
+// cache size is ~ 2^10
+#define C_SIZE 1000000
 
 #include "Collatz.h"
 
@@ -29,9 +35,29 @@ bool collatz_read (istream& r, int& i, int& j) {
 // collatz_eval
 // ------------
 
+int cache[C_SIZE];
+
 int collatz_eval (int i, int j) {
-    // <your code>
-    return 1;}
+  // <your code>
+  int lower = i;
+  int upper = j;
+  int max = 0;
+  int count = 0;
+  unsigned int y;
+
+  if(i > j) {
+    lower = j;
+    upper = i;
+  }
+
+  int temp = (upper / 2) +1;
+  if(temp > lower)
+    lower = temp;
+
+  return 1;
+}
+
+
 
 // -------------
 // collatz_print

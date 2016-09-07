@@ -1,8 +1,16 @@
 // -------------------------------
 // projects/collatz/RunCollatz.c++
-// Copyright (C) 2016
+// Copyright (C) 2015
 // Glenn P. Downing
 // -------------------------------
+
+// -------
+// defines
+// -------
+
+#ifdef ONLINE_JUDGE
+    #define NDEBUG
+#endif
 
 // --------
 // includes
@@ -19,4 +27,5 @@
 int main () {
     using namespace std;
     collatz_solve(cin, cout);
-    return 0;}
+    return 0;
+}
