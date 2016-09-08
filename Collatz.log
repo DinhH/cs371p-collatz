@@ -1,3 +1,50 @@
+commit 8c914069a91e44f1a41e1ed85a70469eb01be884
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 20:00:04 2016 -0500
+
+    clean up the repo
+
+commit 2cf9bfe186ce028d80381829bb91203e5f82e09d
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 19:51:40 2016 -0500
+
+    updated .gitignore file
+
+commit 3ba42f82523ddcea7623872f27a37f3655d3fc98
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 19:31:16 2016 -0500
+
+    added uvafile and .gitignore close #13 close #14
+
+commit 7ccc4f80c8c42b193749d508d0ab778e5de78470
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 19:03:34 2016 -0500
+
+    add all the test close #12
+
+commit 6bdae6c8fad4d05a725b621913cab926b5b110c8
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 18:04:55 2016 -0500
+
+    code works and added comments close #11
+
+commit 44443d0d13bb0767ed05b46b64ca42b757e3257f
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 17:41:39 2016 -0500
+
+    added the basic math for the algorithm close #7
+
+commit 9e53d4e0f2d46e4b9b336b5c4d3f91bfe89cf47c
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 17:37:23 2016 -0500
+
+    implemented the cache close #1
+
+commit ad435f46b94d72a2589b07430ec9aea2b8138a2c
+Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
+Date:   Wed Sep 7 16:55:24 2016 -0500
+
+    added shell code for logic close #9
 commit 45144c0a46451c836146e9e7a6a64444d226adc1
 Author: Dinh Huynh <dinh_huynh4512@utexas.edu>
 Date:   Thu Sep 1 19:15:49 2016 -0500
