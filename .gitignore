@@ -10,3 +10,5 @@ RunCollatz
 RunCollatz.tmp
 TestCollatz
 TestCollatz.tmp
+Doxyfile
+doxygen_sqlite3.db
