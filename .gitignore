@@ -12,3 +12,4 @@ TestCollatz
 TestCollatz.tmp
 Doxyfile
 doxygen_sqlite3.db
+latex
